@@ -4,17 +4,22 @@
 **[简体中文](#Chinese)**  **[English](#English)**  **[日本語](#Japanses)**  **[Orther](#Orther)**
 
 ____
-<div id = #Chinese></div>
+<div id = #Chinese>
+
 ## 说明&介绍  
     Idoll项目为人工智能开发项目。  
     项目创建于2019年5月31日。  
     项目发起：AM。  
+</div>
 ____
-<div id = #English></div>
+<div id = #English>
 ## ???  
+</div>
 ____
-<div id = #Japanese></div>
+<div id = #Japanese>
 ## ???  
+</div>
 ____
-<div id = #Orther></div>
+<div id = #Orther>
 ## ???
+</div>
