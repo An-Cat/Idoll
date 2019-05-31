@@ -2,12 +2,11 @@
 # Idoll  
 
 ## 选择您的语言（Choose Your Language） 
-[**中文**](#chinese)   |  [**English**](#english)   |     [**日本語**](#japanese)
+[**中文**](#说明)  |  [**English**](#Description)   |    [**日本語**](#説明)
 
 ____
-<div  id="chinese"></div>
 
-### 说明&介绍  
+### 说明  
 项目名称：**Idoll**  
 项目起始：**2019年5月31日**  
 项目发起：**AM**  
@@ -16,10 +15,10 @@ ____
 ____
 <div  id="english"></div>
 
-### ???(NO HAVE)   
+### Description(NO HAVE)   
 
 ____
 <div  id="japanese"></div>
 
-### ???(NO HAVE)  
+### 説明(NO HAVE)  
 
