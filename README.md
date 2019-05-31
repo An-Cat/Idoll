@@ -5,6 +5,7 @@
 [**中文**](#Chinese)   |  [**English**](#English)   |     [**日本語**](#Japanese)
 
 ____
+<a name="Chinese"></a>
 <div  id="Chinese"></div>
 
 ### 说明&介绍  
@@ -14,11 +15,13 @@ ____
 近年来，智能普遍受到人们的喜爱，其为我们带来的方便不可忽视，在科技突飞猛进的时代，更为突显了智能的重要性。  
 本项目为智能开发，欢迎您加入我们一起进行开发。
 ____
+<a name="English"></a>
 <div  id="English"></div>
 
 ### ???(NO HAVE)   
 
 ____
+<a name="Japanese"></a>
 <div  id="Japanese"></div>
 
 ### ???(NO HAVE)  
