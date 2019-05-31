@@ -2,7 +2,7 @@
 # Idoll  
 
 ## 选择您的语言（Choose Your Language） 
-[**中文**](#Chinese)   |  [**English**](#English)   |     [**日本語**](#Japanese)
+[**中文**](https://github.com/An-Cat/Idoll#Chinese)   |  [**English**](https://github.com/An-Cat/Idoll#English)   |     [**日本語**](https://github.com/An-Cat/Idoll#Japanese)
 
 ____
 <a name="Chinese"></a>
