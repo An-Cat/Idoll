@@ -2,9 +2,7 @@
 # Idoll  
 
 ## 选择您的语言（Choose Your Language） 
-[**中文**](#user-content-chinese)  |  
-[**English**](#user-content-english)   |    
-[**日本語**](#user-content-japanese)  |  
+[**中文**](#user-content-chinese)  |  [**English**](#user-content-english)  |  [**日本語**](#user-content-japanese)  
 
 ____
 <div id="chinese"></div>
