@@ -2,9 +2,10 @@
 # Idoll  
 
 ## 选择您的语言（Choose Your Language） 
-[**中文**](#说明)  |  [**English**](#Description)   |    [**日本語**](#説明)
+[**中文**](#user-content-chinese)  |  [**English**](#user-content-english)   |    [**日本語**](#user-content-japanese)
 
 ____
+<div id="chinese"></div>
 
 ### 说明  
 项目名称：**Idoll**  
