@@ -4,7 +4,7 @@
  */
 class Idoll{
 	public $Error;
-	private $dblink;
+	private $dblink , $UID,$UKY,$Language,$MSG;
 	function __construct()
 	{
 		$this -> linkdb();
@@ -25,7 +25,10 @@ class Idoll{
 	}
 	public function UserInfo($UID,$UKY,$Language,$MSG)
 	{
-		# code...
+		$this -> UID = $UID;
+		$this -> UKY = $UKY;
+		$this -> Language = $Language;
+		$this -> MSG = $MSG;
 	}
 	public function msg()
 	{
