@@ -5,13 +5,17 @@
 # ————————
 # AM
 # 2019
+# ————————
+# 本页错误代码 -01xx
+# 例如：-0100 -0101 -0102
+# 请按照顺序输出错误代码
 #############
 require '1.function.php';
 require 'Idoll.class.php';
 # 取用户ID
 $UID = $_POST['UID'];
 $UKY = $_POST['UKY'];
-if (UserCheck($UID,$UKY) == FALSE) {
+if ($UID == '' || $UKY == '') {
 	exit('-0101');
 }
 # 取用户语言代码
