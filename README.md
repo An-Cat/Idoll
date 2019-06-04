@@ -1,6 +1,6 @@
 
 # Idoll  
-
+![Idoll](https://github.com/An-Cat/Idoll/raw/master/IMG/ICO/Idoll-ICO.jpg)
 ## 选择您的语言（Choose Your Language） 
 [**中文**](#user-content-chinese)  |  [**English**](#user-content-english)  |  [**日本語**](#user-content-japanese)  
 

@@ -12,7 +12,8 @@
  */
 class Idoll{
 	public $Error;
-	private $dblink,$UID,$UKY,$Language,$MSG;
+	private $dblink,$PDOlink;
+	private $UID,$UKY,$Language,$MSG;
 	function __construct()
 	{
 		# 初始化
@@ -67,8 +68,18 @@ class Idoll{
 		if ($this -> MSG == '') {
 			exit('0301');
 		}
+		$data = array();
+		if (strlen($this -> MSG) < 50) {
+			$data[0] = $this -> MSG;
+			$sql = 'SELECT A FROM ABC WHERE Q LIKE ? ;';
+			$Row = RDBD($sql,'s',$data);
+		}else{
+			$sql = 'SELECT Q FROM DIC ;';
+			$Row = RDBD($sql,'',$data);
+		}
+		
 	}
-	private function RDBD($sql,$pn,$data)
+	private function RDBD($sql,$pn,&$data)
 	{
 		$stmt = $this -> dblink -> prepare($sql);
 		$stmt -> bind_param($pn, $data);
@@ -76,6 +87,20 @@ class Idoll{
 		$result = $stmt -> get_result();
 		$row = $result -> fetch_assoc();
 		return $row;
+	}
+	private function PDO_DB(){
+		$dbtype = '';
+		$dbhost = '';
+		$dbname = '';
+		$dbuser = '';
+		$dbpw = '';
+		$dbdata = $dbtype.":host=".$dbhost.";dbname=".$dbname;
+		$dbset = array(PDO::MYSQL_ATTR_INIT_COMMAND=>'SET NAMES utf8');	
+		try {
+			$this-> PDOlink = new PDO($dbdata, $dbuser, $dbpw,$dbset);
+		}catch (PDOException $e) {
+			die ("Error!: " . $e->getMessage() . "<br/>");
+		}
 	}
 	function __destruct(){
 		if ($this -> dblink) {
